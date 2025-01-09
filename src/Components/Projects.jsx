@@ -48,7 +48,7 @@ const Projects = ({ bgcolor, darkmode }) => {
               </div>
             </div>
           </a>
-          <a href="https://hotel-world-zeta.vercel.app/">
+          <a href="https://www.npmjs.com/package/convert-file-size">
             <div
               className="ui-ux-design w-80 flex flex-col gap-3 p-5 rounded-lg"
               style={{ background: `${bgcolor === "white" ? "#FFF4F4" : "black"}`, border: `${bgcolor === "white" ? "none" : "1px solid #A6A6A6"}` }}
