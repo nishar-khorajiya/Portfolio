@@ -75,7 +75,7 @@ const About = ({bgcolor,darkmode}) => {
                 <p className="text-sm"
                  style={{ color: `${bgcolor==="white" ? "#000000" : "#A6A6A6"}`}}
                 >
-                   Design <span className="font-bold">Restful APIs</span> that are easy to integrate, ensuring seamless data exchange across platforms. Whether it’s for <span className="font-bold"> web services, or microservices </span>.
+                   Design <span className="font-bold">Restful APIs</span> that are easy to integrate, ensuring seamless data exchange across platforms. 
                 </p>
               </div>
             </div>
