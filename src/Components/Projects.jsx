@@ -7,6 +7,7 @@ import project1 from "../Components/SocialLinks/e commerce ss.png"
 import project2 from "../Components/SocialLinks/portfolio project ss.png"
 import project3 from "../Components/SocialLinks/text analyzer ss.png"
 import project4 from "../Components/SocialLinks/job .png"
+import project5 from "../Components/SocialLinks/landmark.png"
 
 
 const Projects = ({ bgcolor, darkmode }) => {
@@ -17,6 +18,23 @@ const Projects = ({ bgcolor, darkmode }) => {
         <h1 className={`text-3xl font-bold ${bgcolor === "white" ? "text-black" : "text-white"}`}>Projects</h1>
 
         <div className="flex gap-5 flex-wrap my-5">
+
+        <a href="https://www.grouplandmark.in/">
+            <div
+              className="ui-ux-design w-80 flex flex-col gap-3 p-5 rounded-lg"
+              style={{ background: `${bgcolor === "white" ? "#FFF4F4" : "black"}`, border: `${bgcolor === "white" ? "none" : "1px solid #A6A6A6"}` }}
+            >
+              <img
+                src={project5}
+                className="rounded-lg transition delay-150"
+              />
+              <div>
+
+                <h1 className={`text-md font-bold ${bgcolor === "white" ? "text-black" : "text-white"}`}>Landmark Group of Project (As a Backend NodeJs Developer)</h1>
+              </div>
+            </div>
+          </a>
+
           <a href="https://github.com/nishar-khorajiya/SGP-3">
             <div
               className="ui-ux-design w-80 flex flex-col gap-3 p-5 rounded-lg"
@@ -48,6 +66,7 @@ const Projects = ({ bgcolor, darkmode }) => {
               </div>
             </div>
           </a>
+
           <a href="https://www.npmjs.com/package/convert-file-size">
             <div
               className="ui-ux-design w-80 flex flex-col gap-3 p-5 rounded-lg"
@@ -63,6 +82,7 @@ const Projects = ({ bgcolor, darkmode }) => {
               </div>
             </div>
           </a>
+
           <a href="https://github.com/nishar-khorajiya/Job-Seeking-Web-Application/tree/master">
             <div
               className="ui-ux-design w-80 flex flex-col gap-3 p-5 rounded-lg"
